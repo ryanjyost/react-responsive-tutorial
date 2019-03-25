@@ -16,7 +16,7 @@ self.__precacheManifest = [
     url: "/react-responsive-tutorial/static/js/runtime~main.9593e785.js"
   },
   {
-    revision: "b4794b2cf13f51cdab07afb86459d81a",
+    revision: "3f5273077c9e46a38fb2d8d540891d36",
     url: "/react-responsive-tutorial/index.html"
   }
 ];

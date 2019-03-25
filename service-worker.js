@@ -16,7 +16,7 @@ importScripts(
 );
 
 importScripts(
-  "/react-responsive-tutorial/precache-manifest.3f154d397cf9f8ca97b9cb141a11708f.js"
+  "/react-responsive-tutorial/precache-manifest.4bda7c609c8f3fefbb55bce7a8dae5cb.js"
 );
 
 workbox.clientsClaim();
