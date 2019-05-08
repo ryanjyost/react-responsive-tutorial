@@ -48,7 +48,7 @@ class App extends Component {
           { icon: `😀`, text: "Item 1" },
           { icon: `😉`, text: "Item 2" },
           { icon: `😎`, text: "Item 3" },
-          { icon: `🤩`, text: "Item 4" },
+          { icon: `🤔`, text: "Item 4" },
           { icon: `😛`, text: "Item 5" },
           { icon: `😺️`, text: "Profile" },
           { icon: `⚙`, text: "Settings" }
@@ -57,7 +57,7 @@ class App extends Component {
           { icon: `😀`, text: "Item 1" },
           { icon: `😉`, text: "Item 2" },
           { icon: `😎`, text: "Item 3" },
-          { icon: `🤩`, text: "Item 4" },
+          { icon: `🤔`, text: "Item 4" },
           { icon: `😛`, text: "Item 5" }
         ];
 
