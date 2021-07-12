@@ -33,12 +33,14 @@ const Sidebar = ({ menuItems, styles }) => {
   return (
     <div style={sidebarStyle}>
       <div style={logoStyle}>{styles.sidebarCollapsed ? "A" : "App"}</div>
-      {menuItems.map(item => (
-        <div style={menuItemStyle}>
-          <span style={iconStyle}>{item.icon}</span>
-          {!styles.sidebarCollapsed && item.text}
-        </div>
-      ))}
+        {
+          menuItems.map((item, index) => (
+            <div style={menuItemStyle} key={index}>
+              <span style={iconStyle}>{item.icon}</span>
+              {!styles.sidebarCollapsed && item.text}
+            </div>
+          ))
+        }
     </div>
   );
 };
